@@ -4,8 +4,8 @@
     */
 
 body {
-    background: #333; /* must change */
-    color: #fff; /* may be #000 or #fff */
+    background: #B5DAEB; /* must change */
+    color: #000; /* may be #000 or #fff */
     font-family: Calibri, Arial, sans-serif; /* keep */
 }
 
@@ -14,8 +14,25 @@ article {
     padding: 20px; /* keep */
     margin: auto; /* keep */
     border: 1px solid; /* can delete or change */
+    background: #CFD8EE;
 }
 
 /* --- ADD YOUR STYLES BELOW --- */
-
+header {
+    background: #65AAB8;
+}
+footer {
+    background: #65AAB8;
+}
+figure {
+    background: #8D99B8
+}
+aside {
+    background: #B5DAEB
+}
 /* --- add your PSEUDO CLASSES below this line --- */
+a:link {color: #D65504;}
+a:visited {color: #572202;}
+a:focus {color: #D65504; background-color: #DD9E77;}
+a:hover {color: #D65504; background-color: #DD9E77;}
+a:active {color: #973B03; background-color: #DD9E77;}
